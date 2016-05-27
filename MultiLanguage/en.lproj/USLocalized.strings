@@ -1,0 +1,14 @@
+/* 
+  USLocalized.strings
+  MultiLanguage
+
+  Created by marujun on 16/5/27.
+  Copyright © 2016年 MaRuJun. All rights reserved.
+*/
+
+"代码创建的" = "Created using code";
+
+"选择语言" = "Select Language";
+"简体中文" = "Simplified Chinese";
+"英文" = "English";
+"取消" = "Cancel";

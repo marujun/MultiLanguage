@@ -1,0 +1,13 @@
+
+/* Class = "UILabel"; text = "Xib创建的"; ObjectID = "Ogg-Ra-bX8"; */
+"Ogg-Ra-bX8.text" = "Xib创建的";
+
+/* Class = "UIButton"; normalTitle = "切换语言"; ObjectID = "cQC-Jc-bUd"; */
+"cQC-Jc-bUd.normalTitle" = "切换语言";
+
+//##################################################################################
+//#           AutoGenStrings            2016-05-27 17:09:05
+//##################################################################################
+
+/* Class = "UITextView"; text = "TextView 测试"; ObjectID = "872-Ba-vEf"; */
+"872-Ba-vEf.text" = "TextView 测试";
