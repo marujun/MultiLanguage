@@ -11,7 +11,7 @@
 		0A44C59E1CF81EEA00070D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44C59D1CF81EEA00070D76 /* AppDelegate.m */; };
 		0A44C5A61CF81EEA00070D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A44C5A51CF81EEA00070D76 /* Assets.xcassets */; };
 		0A44C5B81CF8224300070D76 /* NSBundle+Localizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44C5B71CF8224300070D76 /* NSBundle+Localizations.m */; };
-		0A44C5BC1CF827C600070D76 /* USLocalized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A44C5BE1CF827C600070D76 /* USLocalized.strings */; };
+		0A44C5BC1CF827C600070D76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A44C5BE1CF827C600070D76 /* Localizable.strings */; };
 		0A44C5F71CF82F6A00070D76 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44C5F51CF82F6A00070D76 /* HomeViewController.m */; };
 		0A44C5F91CF8305800070D76 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A44C5FB1CF8305800070D76 /* HomeViewController.xib */; };
 		0A44C6051CF8331100070D76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A44C6071CF8331100070D76 /* InfoPlist.strings */; };
@@ -28,7 +28,7 @@
 		0A44C5B01CF81FF200070D76 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 		0A44C5B61CF8224300070D76 /* NSBundle+Localizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localizations.h"; sourceTree = "<group>"; };
 		0A44C5B71CF8224300070D76 /* NSBundle+Localizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localizations.m"; sourceTree = "<group>"; };
-		0A44C5BD1CF827C600070D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/USLocalized.strings; sourceTree = "<group>"; };
+		0A44C5BD1CF827C600070D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A44C5F41CF82F6900070D76 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0A44C5F51CF82F6A00070D76 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0A44C6081CF8331F00070D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			children = (
 				0A44C59C1CF81EEA00070D76 /* AppDelegate.h */,
 				0A44C59D1CF81EEA00070D76 /* AppDelegate.m */,
-				0A44C5BE1CF827C600070D76 /* USLocalized.strings */,
+				0A44C5BE1CF827C600070D76 /* Localizable.strings */,
 				0A44C5B61CF8224300070D76 /* NSBundle+Localizations.h */,
 				0A44C5B71CF8224300070D76 /* NSBundle+Localizations.m */,
 				0A44C5F41CF82F6900070D76 /* HomeViewController.h */,
@@ -164,7 +164,7 @@
 			files = (
 				0A44C5A61CF81EEA00070D76 /* Assets.xcassets in Resources */,
 				0A44C6051CF8331100070D76 /* InfoPlist.strings in Resources */,
-				0A44C5BC1CF827C600070D76 /* USLocalized.strings in Resources */,
+				0A44C5BC1CF827C600070D76 /* Localizable.strings in Resources */,
 				0A44C5F91CF8305800070D76 /* HomeViewController.xib in Resources */,
 				0AC556B71CF83BF4007F983B /* AutoGenStrings.py in Resources */,
 			);
@@ -203,12 +203,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A44C5BE1CF827C600070D76 /* USLocalized.strings */ = {
+		0A44C5BE1CF827C600070D76 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0A44C5BD1CF827C600070D76 /* en */,
 			);
-			name = USLocalized.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		0A44C5FB1CF8305800070D76 /* HomeViewController.xib */ = {

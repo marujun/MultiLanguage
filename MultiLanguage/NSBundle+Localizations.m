@@ -41,8 +41,3 @@ NSString *const UserDefaultKey_AppLanguage = @"AppLanguage";
 }
 
 @end
-
-@implementation UITextView (Localizations)
-
-
-@end

@@ -31,7 +31,7 @@
     _codeLabel.font = [UIFont systemFontOfSize:20];
     [self.view addSubview:_codeLabel];
     
-    _codeLabel.text = USLocalizedString(@"代码创建的");
+    _codeLabel.text = USLocalizedString(@"代码创建的",nil);
     
     _textView.text = NSLocalizedStringFromTable(@"872-Ba-vEf.text", NSStringFromClass([self class]), @"");
 }
@@ -45,7 +45,7 @@
 
 - (IBAction)switchButtonAction:(UIButton *)sender
 {
-    UIActionSheet *sheetView = [[UIActionSheet alloc] initWithTitle:USLocalizedString(@"选择语言")delegate:self cancelButtonTitle:USLocalizedString(@"取消")destructiveButtonTitle:nil otherButtonTitles:USLocalizedString(@"简体中文"),USLocalizedString(@"英文"), nil];
+    UIActionSheet *sheetView = [[UIActionSheet alloc] initWithTitle:USLocalizedString(@"选择语言",nil)delegate:self cancelButtonTitle:USLocalizedString(@"取消",nil)destructiveButtonTitle:nil otherButtonTitles:USLocalizedString(@"简体中文",nil),USLocalizedString(@"英文",nil), nil];
     [sheetView showInView:self.view];
 }
 

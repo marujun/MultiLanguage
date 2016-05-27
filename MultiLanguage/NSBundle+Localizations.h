@@ -12,12 +12,8 @@
 extern NSString *const UserDefaultKey_AppLanguage;
 
 
-/** 根据用户选择 更换语言 */
-#define USLocalizedString(key) [NSString stringWithFormat:@"%@",[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultKey_AppLanguage]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"USLocalized"]]
-
-
-/** 使用系统默认语言 */
-//#define USLocalizedString(key) NSLocalizedStringFromTable(key, @"USLocalized", nil)
+/** 根据用户选择 切换语言 。系统宏定义必须跟随系统的默认语言！ */
+#define USLocalizedString(key,tbl) [NSString stringWithFormat:@"%@",[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultKey_AppLanguage]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:(tbl?:@"Localizable")]]
 
 
 @interface BundleEx : NSBundle
@@ -27,9 +23,5 @@ extern NSString *const UserDefaultKey_AppLanguage;
 @interface NSBundle (Localizations)
 
 + (void)setLanguage:(NSString *)language;
-
-@end
-
-@interface UITextView (Localizations)
 
 @end
